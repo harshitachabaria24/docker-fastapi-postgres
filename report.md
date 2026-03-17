@@ -93,7 +93,7 @@ DB_PASSWORD
 
 The table is automatically created on startup using SQL.
 
-📸 ![Docker Output](screenshots/screenshot (579).png)
+📸 ![Docker Output](screenshots/Screenshot (579).png)
 
 ---
 
