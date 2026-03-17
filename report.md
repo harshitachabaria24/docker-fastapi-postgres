@@ -150,7 +150,7 @@ docker images
 | Backend (slim)    | Small   |
 | Database (alpine) | Reduced |
 
- ![Docker Output](screenshots/screenshot (582).png)
+ ![Docker Output](screenshots/Screenshot(582).png)
 
 
 ---
@@ -215,7 +215,7 @@ The `docker-compose.yml` file:
 ```bash
 docker ps
 ```
-![Docker Output](screenshots/screenshot (606).png)
+![Docker Output](screenshots/Screenshot(606).png)
 ---
 
 ## 🔹 2. Network Inspection
