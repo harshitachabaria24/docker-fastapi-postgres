@@ -150,7 +150,7 @@ docker images
 | Backend (slim)    | Small   |
 | Database (alpine) | Reduced |
 
- ![Docker Output](screenshots/Screenshot(582).png)
+ ![Docker Output](screenshots/docker-image.png)
 
 
 ---
@@ -204,7 +204,7 @@ The `docker-compose.yml` file:
 * Uses depends_on
 
 ---
- ![Docker Output](screenshots/screenshot (598).png)
+ ![Docker Output](screenshots/docker-compose.png)
 
 ---
 
@@ -215,7 +215,7 @@ The `docker-compose.yml` file:
 ```bash
 docker ps
 ```
-![Docker Output](screenshots/Screenshot(606).png)
+![Docker Output](screenshots/docker-ps.png)
 ---
 
 ## 🔹 2. Network Inspection
@@ -224,7 +224,7 @@ docker ps
 docker network inspect mymacvlan
 ```
 
-![Docker Output](screenshots/screenshot (583).png)
+![Docker Output](screenshots/mymacvlan.png)
 
 ---
 
@@ -234,8 +234,8 @@ docker network inspect mymacvlan
 docker inspect fastapi_container
 ```
 
-![Docker Output](screenshots/screenshot (589).png)
-![Docker Output](screenshots/screenshot (595).png)
+![Docker Output](screenshots/inspect-api.png)
+![Docker Output](screenshots/inspect-api2.png)
 
 ---
 
@@ -258,11 +258,11 @@ docker compose up -d
 
 4. Fetch data → still present
 
-![Docker Output](screenshots/screenshot (601).png)
-![Docker Output](screenshots/screenshot (602).png)
-![Docker Output](screenshots/screenshot (603).png)
-![Docker Output](screenshots/screenshot (604).png)
-![Docker Output](screenshots/screenshot (605).png)
+![Docker Output](screenshots/docker-volume1.png)
+![Docker Output](screenshots/docker-volume2.png)
+![Docker Output](screenshots/docker-volume3.png)
+![Docker Output](screenshots/docker-volume4.png)
+![Docker Output](screenshots/docker-volume5.png)
 ## 🔹 Volume Persistence Test
 
 A volume persistence test was performed to verify that data remains intact even after container restart.
@@ -284,7 +284,7 @@ Access:
 http://localhost:8000/docs
 ```
 
-![Docker Output](screenshots/screenshot (579).png)
+![Docker Output](screenshots/docker-output.png)
 
 ---
 
